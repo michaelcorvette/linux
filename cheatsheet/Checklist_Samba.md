@@ -1,6 +1,6 @@
 # Checklist Samba
 ---
-Full explanation: [https://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/diagnosis.html](http://https://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/diagnosis.html)
+Full explanation: [https://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/diagnosis.html](http://https://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/diagnosis.html) </br>
 1.  In the directory in which you store your `smb.conf` file, run the command `testparm smb.conf`. If it reports any errors, then your smb.conf configuration file is faulty:
     1. /etc/samba or in /usr/local/samba/lib
 1. Check firewall
