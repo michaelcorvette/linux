@@ -1,5 +1,5 @@
 #Samba on CentOs 7.0 - Michaël Corvette
-[bron](http://http://www.howtoforge.com/samba-server-installation-and-configuration-on-centos-7)
+[bron](http://www.howtoforge.com/samba-server-installation-and-configuration-on-centos-7)
 
 | Command | Explanation |
 |--------|--------|
