@@ -26,7 +26,7 @@ bron: https://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/diagnosis.html
 	- You should get the PC's IP address back
 1. Run the command `nmblookup -d 2 '*'`
 1. Run the command `smbclient //Servername/TMP`. You should then be prompted for a password: password unixbox. If you want to test with another account, then add the -U accountname option to the end of the command line for example, smbclient //bigserver/tmp -Ujohndoe.
-1. On the PC, type the command net view \\BIGSERVER. You should get back a list of shares available on the server. If you get a message network name not found or similar error, then NetBIOS name resolution is not working. This is usually caused by a problem in nmbd
-1. Run the command net use x: \\BIGSERVER\TMP. You should be prompted for a password, then you should get a command completed successfully message. If not, then your PC software is incorrectly installed or your smb.conf is incorrect. Make sure your hosts allow and other config lines in smb.conf are correct
-1.Run the command nmblookup -M testgroup where testgroup is the name of the workgroup that your Samba server and Windows PCs belong to. You should get back the IP address of the master browser for that workgroup
-1. Browse to your server
+1. On the PC, type the command `net view \\BIGSERVER`. You should get back a list of shares available on the server. If you get a message network name not found or similar error, then NetBIOS name resolution is not working. This is usually caused by a problem in nmbd
+1. Run the command `net use x: \\BIGSERVER\TMP`. You should be prompted for a password, then you should get a command completed successfully message. If not, then your PC software is incorrectly installed or your smb.conf is incorrect. Make sure your hosts allow and other config lines in smb.conf are correct
+1. Run the command `nmblookup -M testgroup` testgroup = name of the workgroup that your Samba server contains. You should get back the IP address of the master browser for that workgroup
+
