@@ -1,5 +1,4 @@
 # Checklist Samba
----
 bron: https://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/diagnosis.html.
 
 1.  In the directory in which you store your `smb.conf` file, run the command `testparm smb.conf`. If it reports any errors, then your smb.conf configuration file is faulty:
